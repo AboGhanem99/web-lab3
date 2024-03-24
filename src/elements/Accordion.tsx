@@ -15,7 +15,7 @@ const Accordion = () => {
 
   return (
     <div className=" border border-gray-300 container mx-auto my-8">
-      <h2 className="text-xl font-bold text-center mb-4">Date Selection</h2>
+      <h2 className="text-xl font-bold text-center mb-4">Accordion Control</h2>
       {sections.map((section, index) => (
         <div key={index} className="border border-gray-300 rounded-md shadow-md my-4">
           <div className="flex items-center justify-between px-4 py-2 bg-gray-100 cursor-pointer" onClick={() => toggleAccordion(index)}>
