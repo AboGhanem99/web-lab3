@@ -8,7 +8,7 @@ const DateSelection = () => {
   };
 
   return (
-    <div className="border border-gray-300 rounded-md p-4 shadow-md relative max-w-sm mx-auto my-8">
+    <div className="border border-gray-300  p-4 shadow-md relative max-w-sm mx-auto my-8">
       <h2 className="text-xl font-bold text-center mb-4">Date Selection</h2>
       <div className="flex items-center justify-center">
         <input
